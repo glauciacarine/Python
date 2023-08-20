@@ -1,0 +1,9 @@
+def informar_tempo_de_entrega(nomeRestaurante, tempoEstimadoEntrega):
+    mensagem = f'O restaurante {nomeRestaurante} entrega em {tempoEstimadoEntrega} minutos.'
+    return mensagem
+
+nomeRestaurante = input('Digite o nome do restaurante: ')
+tempoEstimadoEntrega = int(input('Digite o tempo estimado de entrega em minutos: '))
+
+mensagem_entrega = informar_tempo_de_entrega(nomeRestaurante, tempoEstimadoEntrega)
+print(mensagem_entrega)
